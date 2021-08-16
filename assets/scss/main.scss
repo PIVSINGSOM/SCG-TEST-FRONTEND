@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+$family-sans-serif: 'Sarabun', sans-serif;
+
+
+@import "~bulma/sass/utilities/_all";
+/* Theme style (colors & sizes) */
+@import "theme-default";
+
+/* Core Libs & Lib configs */
+@import "libs/all";
+
+/* Mixins */
+@import "mixins";
+
+/* Theme components */
+@import "nav-bar";
+@import "aside";
+@import "title-bar";
+@import "hero-bar";
+@import "card";
+@import "table";
+@import "tiles";
+@import "form";
+@import "main-section";
+@import "modal";
+@import "footer";
+@import "misc";
+
+
+// @import "~bulma/sass/base/_all.sass";
+
+
+@import './app.scss';
